@@ -10,4 +10,7 @@ WriteMakefile(
     AUTHOR	    => 'Greg Banks <gnb@fastmail.fm>',
     NAME	    => 'Tree::Interval',
     VERSION_FROM    => 'lib/Tree/Interval.pm',
+    BUILD_REQUIRES  => {
+	'Test::Unit'	    => 0,
+    },
 );
