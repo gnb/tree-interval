@@ -1,0 +1,5 @@
+libtree-interval-perl (0.3-1) unstable; urgency=low
+
+  * Initial Release (split out from Devel::Plumber)
+
+ -- Greg Banks <gnb@fastmail.fm>  Fri, 16 Dec 2011 15:25:54 +1100

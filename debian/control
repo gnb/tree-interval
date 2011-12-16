@@ -1,0 +1,18 @@
+Source: libtree-interval-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl
+Maintainer: Greg Banks <gnb@fastmail.fm>
+Standards-Version: 3.8.4
+Homepage: http://search.cpan.org/dist/Tree-Interval/
+
+Package: libtree-interval-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Perl implementation of an interval tree
+ This is a perl implementation of an interval tree for non-overlapping
+ intervals, based on Tree::RedBlack by Benjamin Holzman.  An interval
+ tree is a binary tree which remains "balanced" i.e. the longest length
+ from root to a node is at most one more than the shortest such length.
+ It is fairly efficient; no operation takes more than O(log(N)) time.
