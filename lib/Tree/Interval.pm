@@ -20,7 +20,7 @@ package Tree::Interval;
 use strict;
 use Tree::Interval::Node;
 use vars qw($VERSION);
-$VERSION = '0.3.1';
+$VERSION = '0.3.2';
 
 =head1 NAME
 
