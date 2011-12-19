@@ -11,6 +11,6 @@ WriteMakefile(
     NAME	    => 'Tree::Interval',
     VERSION_FROM    => 'lib/Tree/Interval.pm',
     BUILD_REQUIRES  => {
-	'Test::Unit'	    => 0,
+	'Test::Unit'	    => '0.25',
     },
 );
